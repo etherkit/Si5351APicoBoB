@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 92.942857 68.125 123.133334 90.735)
     (thickness 1.6)
-    (drawings 35)
+    (drawings 33)
     (tracks 80)
     (zones 0)
     (modules 32)
@@ -823,7 +823,7 @@
   )
 
   (module EtherkitKicadLibrary:OSHWLogo4mm (layer B.Cu) (tedit 0) (tstamp 594F06DD)
-    (at 114.5 82.5 180)
+    (at 114.1 87.4 180)
     (fp_text reference G*** (at 0 -2.35966 180) (layer B.SilkS) hide
       (effects (font (size 0.2032 0.2032) (thickness 0.04064)) (justify mirror))
     )
@@ -902,12 +902,6 @@
       (xy -1.34874 -1.99898)) (layer B.SilkS) (width 0.00254))
   )
 
-  (gr_text Corr. (at 114.9 85.1) (layer B.SilkS)
-    (effects (font (size 0.8 0.7) (thickness 0.175)) (justify mirror))
-  )
-  (gr_text "Creative Commons License CC-BY-SA" (at 110 89) (layer B.SilkS)
-    (effects (font (size 0.7 0.6) (thickness 0.15)) (justify mirror))
-  )
   (gr_text "etherkit.com 2017" (at 105.1 88.8) (layer F.SilkS)
     (effects (font (size 0.8 0.6) (thickness 0.15)))
   )
@@ -1495,21 +1489,6 @@
     (polygon
       (pts
         (xy 105.986128 79.2) (xy 110.186128 79.2) (xy 110.186128 82.8) (xy 105.986128 82.8)
-      )
-    )
-  )
-  (zone (net 2) (net_name GND) (layer B.SilkS) (tstamp 0) (hatch full 0.508)
-    (connect_pads (clearance 0.2))
-    (min_thickness 0.1)
-    (fill yes (arc_segments 32) (thermal_gap 0.2) (thermal_bridge_width 0.2) (smoothing chamfer))
-    (polygon
-      (pts
-        (xy 104 85.7) (xy 116.1 85.7) (xy 116.1 88.3) (xy 104 88.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 116.05 88.25) (xy 104.05 88.25) (xy 104.05 85.75) (xy 116.05 85.75)
       )
     )
   )
